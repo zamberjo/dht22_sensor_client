@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Jose Zambudio Bernabeu <zamberjo@gmail.com>
+# Jose Zambudio Bernabeu <zamberjo@gmail.com>
 
 import Adafruit_DHT
 
