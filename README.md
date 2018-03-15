@@ -1,11 +1,9 @@
 
-===========================
-DHT22 Sensor client for RPi
-===========================
+# DHT22 Sensor client for RPi
 
 
 Installation
-------------
+-------
 
 I always recommend using virtualenv
 ```
