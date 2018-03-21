@@ -7,17 +7,23 @@ Installation
 
 I always recommend using virtualenv
 ```
-apt-get update && apt-get install -y virtualenv
+apt-get update && apt-get install -y virtualenv build-essential python-dev python-openssl
 ```
 
 ```
-cd /opt/
-git clone git@github.com:zamberjo/dht22_sensor_client.git dht22_sensor_client && cd $_
+git clone https://github.com/zamberjo/dht22_sensor_client.git /opt/dht22_sensor_client && pushd $_
 ```
 
 ```
 virtualenv venv
 source venv/bin/activate
+```
+
+```
+git clone https://github.com/adafruit/Adafruit_Python_DHT.git /opt/Adafruit && pushd $_
+python setup.py install
+popd
+rm -rf /opt/Adafruit
 ```
 
 ```
