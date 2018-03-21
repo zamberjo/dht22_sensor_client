@@ -6,6 +6,7 @@ import logging
 
 from sensor import SensorDHT22
 
+logging.basicConfig(level=logging.INFO)
 _logger = logging.getLogger(__name__)
 
 logFormatter = logging.Formatter(
